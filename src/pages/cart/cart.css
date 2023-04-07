@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 375px) {
   .cartItem .description {
-    font-size: 30px;
+    font-size: 20px;
   }
   .cartItem {
     width: 310px !important;

@@ -23,6 +23,7 @@
 .cartItem .description {
   width: 100%;
   font-size: 30px;
+  
 }
 
 .countHandler input {
@@ -42,9 +43,13 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .cartItem .description {
-    font-size: 20px;
+    font-size: 13px;
+   
+  }
+  .cart h1 {
+    text-align: center;
   }
   .cartItem {
     width: 310px !important;
